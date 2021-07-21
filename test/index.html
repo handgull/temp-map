@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Test page for the package" />
+    <title>Map Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="handgull">
+    <script type="module">
+        import { EnnovaMap } from "../build/map.js";
+    </script>
+</head>
+
+<body>
+    <div id="map"></div>
+</body>
+
+<script>
+    let ennovaMap = new EnnovaMap();
+    ennovaMap.mapInit('map');
+</script>
+
+</html>

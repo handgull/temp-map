@@ -1,0 +1,23 @@
+{
+  "name": "regioneveneto-maps",
+  "version": "1.0.0",
+  "description": "uses leaflet to perform some map actions",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/map.js",
+    "start": "concurrently npm:start:*"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "leaflet": "^1.7.1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5",
+    "@types/leaflet": "^1.7.4"
+  }
+}
