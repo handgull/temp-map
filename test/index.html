@@ -7,16 +7,15 @@
     <title>Map Test</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="handgull">
-    <script type="module">
-        import { EnnovaMap } from "../build/map.js";
-    </script>
 </head>
 
 <body>
     <div id="map"></div>
 </body>
 
-<script>
+<script type="module">
+    import { EnnovaMap } from "../build/map.js";
+
     let ennovaMap = new EnnovaMap();
     ennovaMap.mapInit('map');
 </script>
